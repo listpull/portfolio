@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 740" role="img" aria-label="Conceptual serverless clinical recommendation architecture"><title>Conceptual serverless clinical recommendation architecture</title><defs>
+ <linearGradient id="shade" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#182b45"/><stop offset="1" stop-color="#0e1c2d"/></linearGradient>
+ <linearGradient id="mint" x1="0" x2="1"><stop offset="0" stop-color="#a2f3de"/><stop offset="1" stop-color="#d3fd85"/></linearGradient>
+ <linearGradient id="sun" x1="0" x2="1"><stop offset="0" stop-color="#ffc79e"/><stop offset="1" stop-color="#f87965"/></linearGradient>
+ <style>text{font-family:'Arial','Helvetica',sans-serif;}.sub{font-size:17px;fill:#8596a9;letter-spacing:2px;}.small{font-size:15px;fill:#9baabc;}.label{font-size:18px;font-weight:600;fill:#e6eeef;}.big{font-size:30px;font-weight:700;fill:#ecf5ee;}.line{fill:none;stroke-linecap:round;stroke-linejoin:round;}@media (prefers-reduced-motion: no-preference){.draw{stroke-dasharray:950;stroke-dashoffset:950;animation:reveal 3s ease forwards;}@keyframes reveal{to{stroke-dashoffset:0}}}</style></defs><rect width="1200" height="740" rx="32" fill="#eeecf8"/>
+<text x="71" y="102" font-size="21" letter-spacing="3" fill="#6c6a90">CLOUD ARCHITECTURE / CONCEPT</text>
+<text x="71" y="163" font-size="42" font-weight="700" fill="#1b2943">From signals to relevant results</text>
+<text x="72" y="209" font-size="22" fill="#6b7085">A sanitized view of an enterprise semantic retrieval pipeline</text>
+<rect x="74" y="278" width="217" height="260" rx="20" fill="#fff" stroke="#d5d2e4"/>
+<rect x="337" y="278" width="217" height="260" rx="20" fill="#fff" stroke="#d5d2e4"/>
+<rect x="601" y="278" width="217" height="260" rx="20" fill="#fff" stroke="#d5d2e4"/>
+<rect x="863" y="278" width="260" height="260" rx="20" fill="#20354b"/>
+<circle cx="182" cy="344" r="32" fill="#ddf5da"/><text x="164" y="357" font-size="33" fill="#276d58">✚</text>
+<circle cx="445" cy="344" r="32" fill="#dfe8ff"/><text x="430" y="353" font-size="27" fill="#476cb0">✧</text>
+<circle cx="709" cy="344" r="32" fill="#fff1d7"/><text x="692" y="355" font-size="26" fill="#a77528">⌕</text>
+<circle cx="993" cy="344" r="32" fill="#aef2db"/><text x="977" y="355" font-size="29" fill="#0e4d49">✓</text>
+<text x="103" y="418" font-size="23" font-weight="700" fill="#22364b">Lab signals</text><text x="104" y="456" font-size="17" fill="#6c7c8c">Structured inputs</text><text x="104" y="483" font-size="17" fill="#6c7c8c">and context</text>
+<text x="359" y="418" font-size="23" font-weight="700" fill="#22364b">Orchestration</text><text x="359" y="456" font-size="17" fill="#6c7c8c">Step Functions</text><text x="359" y="483" font-size="17" fill="#6c7c8c">+ Lambda</text>
+<text x="632" y="418" font-size="23" font-weight="700" fill="#22364b">Semantic search</text><text x="632" y="456" font-size="17" fill="#6c7c8c">Embeddings</text><text x="632" y="483" font-size="17" fill="#6c7c8c">+ OpenSearch</text>
+<text x="888" y="418" font-size="23" font-weight="700" fill="#f3fbf7">Ranked results</text><text x="888" y="456" font-size="17" fill="#a6c4ce">Relevant options in</text><text x="888" y="483" font-size="17" fill="#a6c4ce">the React interface</text>
+<path d="M296 403 h35 m-11 -11 l11 11 -11 11 M559 403 h35 m-11 -11 l11 11 -11 11 M823 403 h35 m-11 -11 l11 11 -11 11" stroke="#7d8f99" stroke-width="4" fill="none"/>
+<rect x="73" y="596" width="1050" height="74" rx="13" fill="#e2dff1"/>
+<text x="99" y="641" font-size="19" fill="#565a72">Privacy-aware illustration • No patient information • Not a client screenshot</text></svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 740" role="img" aria-label="Conceptual natural language research agent interface"><title>Conceptual natural language research agent interface</title><defs>
+ <linearGradient id="shade" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#182b45"/><stop offset="1" stop-color="#0e1c2d"/></linearGradient>
+ <linearGradient id="mint" x1="0" x2="1"><stop offset="0" stop-color="#a2f3de"/><stop offset="1" stop-color="#d3fd85"/></linearGradient>
+ <linearGradient id="sun" x1="0" x2="1"><stop offset="0" stop-color="#ffc79e"/><stop offset="1" stop-color="#f87965"/></linearGradient>
+ <style>text{font-family:'Arial','Helvetica',sans-serif;}.sub{font-size:17px;fill:#8596a9;letter-spacing:2px;}.small{font-size:15px;fill:#9baabc;}.label{font-size:18px;font-weight:600;fill:#e6eeef;}.big{font-size:30px;font-weight:700;fill:#ecf5ee;}.line{fill:none;stroke-linecap:round;stroke-linejoin:round;}@media (prefers-reduced-motion: no-preference){.draw{stroke-dasharray:950;stroke-dashoffset:950;animation:reveal 3s ease forwards;}@keyframes reveal{to{stroke-dashoffset:0}}}</style></defs><rect width="1200" height="740" rx="32" fill="#101f32"/>
+<rect x="39" y="38" width="1122" height="666" rx="25" fill="#15273d" stroke="#364b62"/>
+<rect x="39" y="38" width="300" height="666" rx="25" fill="#0e1c2f"/>
+<circle cx="82" cy="82" r="17" fill="#b9fa99"/><text x="114" y="89" font-size="24" font-weight="700" fill="#eaf3f3">RESEARCH / AI</text>
+<text x="74" y="163" class="sub">A QUESTION TO EXPLORE</text>
+<rect x="66" y="190" width="243" height="123" rx="13" fill="#243d52"/><text x="83" y="225" class="label">“What patterns are</text><text x="83" y="254" class="label">emerging across</text><text x="83" y="283" class="label">these data series?”</text>
+<text x="74" y="389" class="sub">WORKFLOW</text>
+<circle cx="91" cy="440" r="15" fill="#b9fa99"/><text x="86" y="446" font-size="15" fill="#173a35">1</text><text x="121" y="446" class="label">Interpret intent</text>
+<circle cx="91" cy="502" r="15" fill="#b9fa99"/><text x="86" y="508" font-size="15" fill="#173a35">2</text><text x="121" y="508" class="label">Retrieve context</text>
+<circle cx="91" cy="564" r="15" fill="#b9fa99"/><text x="86" y="570" font-size="15" fill="#173a35">3</text><text x="121" y="570" class="label">Stream analysis</text>
+<text x="380" y="106" class="sub">EXPLANATION-FIRST RESEARCH</text><text x="382" y="157" class="big">An answer you can inspect</text>
+<rect x="381" y="190" width="721" height="110" rx="18" fill="#233c52"/>
+<circle cx="414" cy="228" r="13" fill="#b9fa99"/><text x="440" y="233" class="label">Contextual summary</text>
+<text x="406" y="267" class="small">Illustrative result assembled from retrieved sources</text>
+<rect x="381" y="320" width="440" height="291" rx="18" fill="#1a3247"/><text x="402" y="354" class="label">Visual signal</text>
+<line x1="411" y1="397" x2="411" y2="568" stroke="#2a4256" stroke-width="1"/><line x1="475" y1="397" x2="475" y2="568" stroke="#2a4256" stroke-width="1"/><line x1="538" y1="397" x2="538" y2="568" stroke="#2a4256" stroke-width="1"/><line x1="602" y1="397" x2="602" y2="568" stroke="#2a4256" stroke-width="1"/><line x1="666" y1="397" x2="666" y2="568" stroke="#2a4256" stroke-width="1"/><line x1="729" y1="397" x2="729" y2="568" stroke="#2a4256" stroke-width="1"/><line x1="793" y1="397" x2="793" y2="568" stroke="#2a4256" stroke-width="1"/><line x1="411" y1="397" x2="793" y2="397" stroke="#2a4256" stroke-width="1"/><line x1="411" y1="440" x2="793" y2="440" stroke="#2a4256" stroke-width="1"/><line x1="411" y1="482" x2="793" y2="482" stroke="#2a4256" stroke-width="1"/><line x1="411" y1="525" x2="793" y2="525" stroke="#2a4256" stroke-width="1"/><line x1="411" y1="568" x2="793" y2="568" stroke="#2a4256" stroke-width="1"/>
+<polyline class="line" points="414,516 470,506 526,530 582,475 638,483 695,431 748,454 792,408" stroke="#c4f796" stroke-width="5" />
+<rect x="842" y="320" width="260" height="291" rx="18" fill="#1a3247"/><text x="865" y="354" class="label">Evidence trail</text>
+<rect x="865" y="387" width="210" height="39" rx="9" fill="#263e51"/><text x="883" y="412" class="small">API retrieval  ✓</text>
+<rect x="865" y="441" width="210" height="39" rx="9" fill="#263e51"/><text x="883" y="466" class="small">SQL context  ✓</text>
+<rect x="865" y="495" width="210" height="39" rx="9" fill="#263e51"/><text x="883" y="520" class="small">Response stream  ✓</text>
+<text x="389" y="665" font-size="15" fill="#9aacbc">Portfolio schematic • No live model or customer data</text></svg>

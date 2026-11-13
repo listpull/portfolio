@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 740" role="img" aria-label="Illustrative market analytics portal dashboard"><title>Illustrative market analytics portal dashboard</title><defs>
+ <linearGradient id="shade" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#182b45"/><stop offset="1" stop-color="#0e1c2d"/></linearGradient>
+ <linearGradient id="mint" x1="0" x2="1"><stop offset="0" stop-color="#a2f3de"/><stop offset="1" stop-color="#d3fd85"/></linearGradient>
+ <linearGradient id="sun" x1="0" x2="1"><stop offset="0" stop-color="#ffc79e"/><stop offset="1" stop-color="#f87965"/></linearGradient>
+ <style>text{font-family:'Arial','Helvetica',sans-serif;}.sub{font-size:17px;fill:#8596a9;letter-spacing:2px;}.small{font-size:15px;fill:#9baabc;}.label{font-size:18px;font-weight:600;fill:#e6eeef;}.big{font-size:30px;font-weight:700;fill:#ecf5ee;}.line{fill:none;stroke-linecap:round;stroke-linejoin:round;}@media (prefers-reduced-motion: no-preference){.draw{stroke-dasharray:950;stroke-dashoffset:950;animation:reveal 3s ease forwards;}@keyframes reveal{to{stroke-dashoffset:0}}}</style></defs><rect width="1200" height="740" rx="32" fill="url(#shade)"/>
+<rect x="34" y="34" width="1132" height="672" rx="20" fill="#15263b" stroke="#33506b"/>
+<rect x="34" y="34" width="217" height="672" rx="20" fill="#0b192b"/>
+<circle cx="82" cy="86" r="16" fill="#c9ff92"/><text x="109" y="94" font-size="25" font-weight="700" fill="#f5f8ee">LISTPULL</text>
+<text x="66" y="157" class="sub">WORKSPACE</text>
+<rect x="51" y="184" width="184" height="48" rx="11" fill="#264051"/><text x="77" y="215" class="label">◉  Overview</text>
+<text x="74" y="276" class="small">▥  Research</text><text x="74" y="334" class="small">⌁  Forecasts</text><text x="74" y="392" class="small">▤  Watchlist</text>
+<text x="278" y="91" class="small">WORKSPACE  /  OVERVIEW</text><text x="278" y="139" class="big">Market intelligence</text>
+<rect x="947" y="71" width="181" height="43" rx="12" fill="#284458"/><text x="971" y="98" font-size="15" fill="#e4ecee">ILLUSTRATIVE DATA</text>
+<rect x="278" y="176" width="255" height="111" rx="15" fill="#20394c"/><text x="298" y="204" class="small">COVERAGE</text><text x="298" y="250" font-size="31" font-weight="700" fill="#f2f7f5">Multi-source</text>
+<rect x="549" y="176" width="256" height="111" rx="15" fill="#20394c"/><text x="571" y="204" class="small">TIME HORIZON</text><text x="571" y="250" font-size="31" font-weight="700" fill="#f2f7f5">Intraday + daily</text>
+<rect x="820" y="176" width="307" height="111" rx="15" fill="#20394c"/><text x="844" y="204" class="small">RESEARCH LAYER</text><text x="844" y="250" font-size="31" font-weight="700" fill="#bff98e">AI-ready</text>
+<rect x="278" y="309" width="609" height="349" rx="17" fill="#1a3046"/><text x="302" y="346" class="label">Illustrative trend view</text><text x="749" y="344" class="small">LAST 30D</text>
+<line x1="310" y1="392" x2="310" y2="613" stroke="#233c51" stroke-width="1"/><line x1="378" y1="392" x2="378" y2="613" stroke="#233c51" stroke-width="1"/><line x1="445" y1="392" x2="445" y2="613" stroke="#233c51" stroke-width="1"/><line x1="512" y1="392" x2="512" y2="613" stroke="#233c51" stroke-width="1"/><line x1="580" y1="392" x2="580" y2="613" stroke="#233c51" stroke-width="1"/><line x1="648" y1="392" x2="648" y2="613" stroke="#233c51" stroke-width="1"/><line x1="715" y1="392" x2="715" y2="613" stroke="#233c51" stroke-width="1"/><line x1="782" y1="392" x2="782" y2="613" stroke="#233c51" stroke-width="1"/><line x1="850" y1="392" x2="850" y2="613" stroke="#233c51" stroke-width="1"/><line x1="310" y1="392" x2="850" y2="392" stroke="#233c51" stroke-width="1"/><line x1="310" y1="436" x2="850" y2="436" stroke="#233c51" stroke-width="1"/><line x1="310" y1="480" x2="850" y2="480" stroke="#233c51" stroke-width="1"/><line x1="310" y1="525" x2="850" y2="525" stroke="#233c51" stroke-width="1"/><line x1="310" y1="569" x2="850" y2="569" stroke="#233c51" stroke-width="1"/><line x1="310" y1="613" x2="850" y2="613" stroke="#233c51" stroke-width="1"/>
+<path d="M311 558 L356 522 L405 536 L452 461 L499 484 L540 436 L585 458 L638 422 L688 443 L725 390 L780 418 L850 365 L850 613 L311 613Z" fill="#91d8b2" opacity=".08"/>
+<polyline class="line" points="311,558 356,522 405,536 452,461 499,484 540,436 585,458 638,422 688,443 725,390 780,418 850,365" stroke="#bffa9e" stroke-width="5" />
+<rect x="903" y="309" width="223" height="349" rx="17" fill="#1a3046"/><text x="930" y="346" class="label">Signal sources</text>
+<rect x="930" y="388" width="170" height="45" rx="8" fill="#253f53"/><circle cx="953" cy="411" r="7" fill="#baf8a0"/><text x="971" y="417" class="small">API feeds</text>
+<rect x="930" y="452" width="170" height="45" rx="8" fill="#253f53"/><circle cx="953" cy="475" r="7" fill="#a0dbe7"/><text x="971" y="481" class="small">Time series</text>
+<rect x="930" y="516" width="170" height="45" rx="8" fill="#253f53"/><circle cx="953" cy="539" r="7" fill="#f5b38c"/><text x="971" y="545" class="small">Research</text>
+<text x="930" y="615" font-size="12" fill="#8b9daa">Concept only • not live prices</text></svg>

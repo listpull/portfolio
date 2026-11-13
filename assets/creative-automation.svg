@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 740" role="img" aria-label="Vector graphics production workflow automation illustration"><title>Vector graphics production workflow automation illustration</title><defs>
+ <linearGradient id="shade" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#182b45"/><stop offset="1" stop-color="#0e1c2d"/></linearGradient>
+ <linearGradient id="mint" x1="0" x2="1"><stop offset="0" stop-color="#a2f3de"/><stop offset="1" stop-color="#d3fd85"/></linearGradient>
+ <linearGradient id="sun" x1="0" x2="1"><stop offset="0" stop-color="#ffc79e"/><stop offset="1" stop-color="#f87965"/></linearGradient>
+ <style>text{font-family:'Arial','Helvetica',sans-serif;}.sub{font-size:17px;fill:#8596a9;letter-spacing:2px;}.small{font-size:15px;fill:#9baabc;}.label{font-size:18px;font-weight:600;fill:#e6eeef;}.big{font-size:30px;font-weight:700;fill:#ecf5ee;}.line{fill:none;stroke-linecap:round;stroke-linejoin:round;}@media (prefers-reduced-motion: no-preference){.draw{stroke-dasharray:950;stroke-dashoffset:950;animation:reveal 3s ease forwards;}@keyframes reveal{to{stroke-dashoffset:0}}}</style></defs><rect width="1200" height="740" rx="32" fill="#fbede4"/>
+<text x="77" y="98" font-size="19" letter-spacing="3" fill="#996d5b">THE ORIGIN STORY / 2012–2015</text>
+<text x="76" y="154" font-size="39" font-weight="700" fill="#304453">When design met automation.</text>
+<rect x="84" y="216" width="374" height="400" rx="25" fill="#fff" stroke="#e3ccbc"/>
+<text x="112" y="261" font-size="20" font-weight="700" fill="#385060">CREATIVE INPUT</text>
+<circle cx="265" cy="430" r="109" fill="#f0b899"/><circle cx="265" cy="430" r="71" fill="#fff0df"/>
+<path d="M200 463 C221 395 277 389 329 452" fill="none" stroke="#2a6972" stroke-width="22" stroke-linecap="round"/>
+<path d="M215 396 l45 -42 44 42 -44 42Z" fill="#ec7553" opacity=".9"/>
+<circle cx="215" cy="396" r="8" fill="#fff"/><circle cx="304" cy="396" r="8" fill="#fff"/><circle cx="260" cy="438" r="8" fill="#fff"/>
+<text x="131" y="575" font-size="17" fill="#805e51">Artwork • layers • templates</text>
+<path d="M467 411 H728 m-23 -19 23 19 -23 19" stroke="#cc8668" stroke-width="6" fill="none"/>
+<rect x="494" y="341" width="213" height="124" rx="14" fill="#293f4d"/><text x="528" y="383" font-size="20" fill="#c4f5e2">JavaScript</text><text x="527" y="420" font-size="17" fill="#fff">iterate → export()</text>
+<rect x="757" y="216" width="361" height="400" rx="25" fill="#fff" stroke="#e3ccbc"/>
+<text x="788" y="261" font-size="20" font-weight="700" fill="#385060">REPEATABLE OUTPUT</text>
+<rect x="790" y="303" width="131" height="118" rx="14" fill="#e1f5e9"/><path d="M816 388 l41 -63 40 63Z" fill="#66b89a"/><text x="828" y="452" font-size="17" fill="#73807e">SVG</text>
+<rect x="947" y="303" width="131" height="118" rx="14" fill="#fee6db"/><circle cx="1012" cy="359" r="43" fill="#ee8f6b"/><text x="980" y="452" font-size="17" fill="#73807e">XML</text>
+<rect x="790" y="474" width="287" height="99" rx="15" fill="#30495a"/><text x="843" y="533" font-size="23" fill="#e5f5e8">FXG + assets</text>
+<text x="82" y="682" font-size="16" fill="#92796c">Original illustration of a process • not recovered employer artwork</text></svg>
