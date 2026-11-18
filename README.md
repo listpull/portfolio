@@ -9,7 +9,7 @@ A portfolio showing my work at ListPull and on engineering teams at Accenture an
 
 The site follows the original editorial layout, with a hero, the full-width engineering banner, three cards explaining my approach, ten project stories, a career timeline, and an about section.
 
-Each project has an image, a year, a project period, a short introduction, and an expandable story of at least 100 words. The ListPull apps link to the real tools so visitors can try them. The client-work diagrams are illustrations and don't show private information.
+Each project has an image, a year, a project period, a short introduction, and an expandable story of at least 100 words. The ListPull applications link to public examples of the engineering and creative work. The client-work diagrams are illustrations and don't show private information.
 
 ## Files
 
@@ -29,6 +29,6 @@ GitHub Pages publishes this repository's main branch.
 
 ## Image and date notes
 
-The Blobby image is from ListPull. The newer Studio tool images are original illustrations, not screenshots of private projects. Older client projects use simplified diagrams.
+Blobby, creative media, video-related artwork, and wildlife cards use images published on ListPull's website. The AI workspace, data analysis, and forecasting cards retain explanatory illustrations. None of the illustrations are presented as product screenshots. Older client projects use simplified diagrams.
 
 Periods for the older work follow the original portfolio. For newer Studio tools, **Active in 2026** means the tool is part of ListPull's current 2026 work. It doesn't claim a verified original start date.

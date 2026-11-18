@@ -1,31 +1,41 @@
-# Images and links
+# Images and sources
 
 Updated November 17, 2026.
 
-The portfolio keeps images honest and links directly to working ListPull applications.
+## Source pages
 
-## ListPull's live pages
-
+- ListPull engineering: https://listpull.com/engineering.html
+- ListPull solutions: https://listpull.com/solutions.html
+- ListPull home and media: https://listpull.com/
 - Blobby game: https://listpull.com/blobby.html
 - Creative Studio: https://listpull.com/studio/image-editor.html
 - Video Studio: https://listpull.com/studio/video-editor.html
 - AI Workspace and Code Editor: https://listpull.com/studio/ai.html
 - Business Insights: https://listpull.com/studio/strategy.html
 - Forecast Lab: https://listpull.com/studio/forecast.html
-- ListPull Studio hub: https://listpull.com/studio.html
-- ListPull Labs: https://listpull.com/labs.html
-- Engineering: https://listpull.com/solutions.html
 
-## Artwork
+The project text describes the applications and engineering work, not sales offers.
 
-- The game card shows a real public ListPull image from https://listpull.com/IMG_4905-4.jpg.
-- The top of the site shows a real public Blobby gameplay image from https://listpull.com/blobby/wiki/assets/images/blobby/IMG_0159-12-8.webp.
-- `assets/studio-creative.svg`, `studio-video.svg`, `studio-ai.svg`, `studio-insights.svg`, `studio-forecast.svg`, and `wildlife-media.svg` are original illustrations made for this portfolio. They suggest what the tools do, but they are not screen captures.
-- `assets/clinical-ai.svg`, `public-health.svg`, and `public-data.svg` are simplified illustrations. No private client screens or data are shown.
-- `assets/blobby-fallback.svg` is used if a remote image can't load.
+## Images from ListPull
 
-## Credit and accuracy notes
+- **Blobby game:** https://listpull.com/IMG_4905-4.jpg
+- **Creative Studio card:** https://listpull.com/blobby-promo-cut.webp, published ListPull artwork. It is an example of digital artwork, not an image of the editor.
+- **Video Studio card:** https://listpull.com/magnific-5h1S5Pe2As9h5lGYfbxQ-IMG_2709-min.webp, published ListPull media artwork. It is not an image of the video editor.
+- **Wildlife Media:** https://listpull.com/wildlife.webp, a published ListPull wildlife image.
+- **Hero:** https://listpull.com/blobby/wiki/assets/images/blobby/IMG_0159-12-8.webp, published game image.
 
-Descriptions of ListPull tools are based on their public pages. Some features, including the AI assistant, depend on device support. The portfolio doesn't claim every app or tool works on every device.
+All listed paths are real files in the public ListPull website repository. We did not find stored screenshots of the public Studio applications in that repository.
 
-Work history is based on Jay's resume. Client projects are described at a high level without confidential details. Do not present conceptual diagrams as client screenshots.
+## Original diagrams retained
+
+- `assets/studio-ai.svg`, `assets/studio-insights.svg`, and `assets/studio-forecast.svg` are original illustrations explaining application workflows. They are **not** screenshots.
+- `assets/clinical-ai.svg`, `assets/public-health.svg`, and `assets/public-data.svg` are simplified illustrations, with no private client screens or data.
+- `assets/blobby-fallback.svg` is used when remote imagery cannot load.
+
+## Accuracy notes
+
+The public forecasting example uses a simple time-series model, while earlier engineering work involved Node.js/ARIMA. These are not presented as the same implementation.
+
+AI assistance requires compatible devices and user opt-in. Other applications are publicly accessible examples of ListPull's work. Descriptions of client projects reflect the provided resume, without private project details.
+
+Keep the difference between original site imagery, portfolio artwork, and client diagrams clear.
