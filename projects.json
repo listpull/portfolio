@@ -6,7 +6,7 @@
     "group": "ListPull game",
     "kind": "Mobile game · Interactive media",
     "date": "Available now",
-    "desc": "A mobile puzzle game combining 3D environments, animal-matching mechanics, and a connected woodland world.",
+    "desc": "A mobile game that connects animal-matching puzzles, stack sorting, village building, and exploration in one woodland world.",
     "role": "Founder / product engineering · ListPull",
     "image": "https://listpull.com/IMG_4905-4.jpg",
     "alt": "Blobby's Woodland Wonder game artwork published on ListPull",
@@ -27,149 +27,149 @@
         "https://play.google.com/store/apps/details?id=com.listpull.matchblock4"
       ]
     ],
-    "synopsis": "Blobby's Woodland Wonder is a mobile game developed and published through ListPull. The project brings together interactive puzzles, 3D environments, character design, and the systems needed to keep a game working across phones and tablets. Players match animals, sort blocks, build a village, and move between different parts of the woodland world. From an engineering standpoint, these features need consistent rules, clear visual feedback, and a navigation system that connects several types of play. I work on the product and engineering side of ListPull, helping bring those pieces together. The game also shows how the company's wildlife and creative work can become part of an interactive experience. It's a different challenge from building a business application, but the same basic problems show up: organizing complex features, keeping the interface understandable, and making sure everything feels like one product.",
+    "synopsis": "Blobby's Woodland Wonder is one of the mobile products I work on through ListPull. The challenge is bringing several puzzle mechanics into one game without making it feel like a collection of unrelated screens. Animal matching, stack sorting, village building, and exploration all behave differently, but the player still needs to understand how they fit together. That takes consistent menus, clear feedback, and a lot of attention to what happens when someone taps, moves, or finishes a level. My role as founder covers product direction and engineering, alongside the wider creative work that goes into the game. I include it because mobile development calls for a different kind of thinking from a business dashboard or cloud service. There is still application state to manage and features to connect, but timing, movement, and the feel of the experience matter just as much.",
     "created": "2020",
     "period": "2020–2026"
   },
   {
     "id": "02",
-    "title": "Creative Studio",
+    "title": "Creative Editing Applications",
     "category": "tools",
     "group": "ListPull Studio",
-    "kind": "Browser application · Image and SVG editing",
-    "date": "Try it live",
-    "desc": "A browser-based image and SVG editor with a layered canvas, drawing tools, image adjustments, and file exports.",
-    "role": "Founder / application engineering · ListPull",
+    "kind": "Creative software · Image and vector editing",
+    "date": "2026",
+    "desc": "Image and vector editing work focused on layered artwork, object transforms, reusable design controls, and reliable import and export workflows.",
+    "role": "Founder / creative application engineering · ListPull",
     "image": "https://listpull.com/blobby-promo-cut.webp",
     "alt": "Blobby promotional artwork published by ListPull, an example of the company's digital artwork",
     "credit": "Real ListPull artwork · not an editor screenshot",
     "visual": "creative",
     "links": [
       [
-        "Open the editor",
+        "Related browser example",
         "https://listpull.com/studio/image-editor.html"
       ]
     ],
-    "synopsis": "Creative Studio is an image and vector editing application built around a browser canvas. The workspace supports imported photos and SVG files, editable text and shapes, grouping, layer order, alignment, image adjustments, and exports. It also has undo and redo, document sizing, cropping, and an optional on-device AI design assistant. These features involve more than placing controls around an image. The editor has to track the state of each object, apply changes without losing the original artwork, and keep the canvas, selection handles, and property fields in sync. Working on this kind of application draws on interface design, JavaScript, file handling, and the practical details of editing graphics. I included it in my portfolio because it represents how I approach interactive software: give people precise controls, handle complicated behavior underneath, and keep the workspace understandable even as more features are added.",
+    "synopsis": "Creative software has been part of my work since I automated artwork production in Adobe Illustrator and Photoshop. At ListPull, that experience carries into applications for working with images and vector graphics. The problem is not just putting a drawing surface on the screen. Someone might import artwork, move an object, change its layer, adjust a shape, undo a mistake, and export the result. Each step needs to agree about what changed. The engineering work is in representing the artwork, keeping selections and properties in sync, and making sure edits do not disappear when someone switches tools. It also means designing controls that are precise without slowing people down. This project brings together the creative work I started with and the application development I've done since. It's an example of solving a production problem with software, not just making a screen that looks like an editor.",
     "created": "2026",
     "period": "Active in 2026"
   },
   {
     "id": "03",
-    "title": "Video Studio",
+    "title": "Video Editing & Production",
     "category": "tools",
     "group": "ListPull Studio",
-    "kind": "Browser application · Video editing",
-    "date": "Try it live",
-    "desc": "A browser-based video editor with multiple timeline tracks, clip trimming, titles, audio, keyframes, and export settings.",
-    "role": "Founder / application engineering · ListPull",
+    "kind": "Media software · Editing workflows",
+    "date": "2026",
+    "desc": "Video production software that brings footage, layered timelines, titles, audio, previews, and export tasks into a connected editing workflow.",
+    "role": "Founder / media application engineering · ListPull",
     "image": "https://listpull.com/magnific-5h1S5Pe2As9h5lGYfbxQ-IMG_2709-min.webp",
     "alt": "Wildlife-themed media artwork published on the ListPull website",
     "credit": "Real ListPull media artwork · not an editor screenshot",
     "visual": "agent",
     "links": [
       [
-        "Open video editor",
+        "Related browser example",
         "https://listpull.com/studio/video-editor.html"
       ]
     ],
-    "synopsis": "Video Studio is a media editing application with a timeline, a preview monitor, and separate tracks for video, overlays, titles, and audio. It handles imported footage and images, trimming and splitting clips, speed and volume changes, cropping, transitions, keyframe animation, voice recording, and export settings. Building an interface like this means managing several things at once. A clip has a place in the timeline, a range within its source file, and properties that affect how it appears in the final video. The preview has to reflect those settings without confusing the person editing. The project connects the creative and technical sides of ListPull. It involves media handling, detailed interface behavior, and coordinating controls that depend on each other. The image here is media from ListPull's website, not a screenshot of the editor; the linked application shows the actual workspace.",
+    "synopsis": "Editing video is a good example of why an application's behavior matters as much as how it looks. A production workflow has to keep footage, clips, timing, titles, audio, and exports organized. A change to one clip affects what appears at a particular point in the timeline, sometimes alongside several other tracks. The engineering challenge is keeping those pieces in sync while someone makes changes and checks the result. At ListPull, media production also connects with our wildlife publishing and creative projects, so the editing work is tied to the practical needs of making and preparing content. This project shows my work around interactive controls, media handling, previews, and the details that make a complicated workspace manageable. There is a lot going on behind a simple trim or title adjustment. The goal is to keep that complexity out of the person's way.",
     "created": "2026",
     "period": "Active in 2026"
   },
   {
     "id": "04",
-    "title": "AI Workspace and Code Editor",
+    "title": "AI Research & Development Workflows",
     "category": "tools",
     "group": "ListPull Studio",
-    "kind": "Browser application · Code editor and AI",
-    "date": "Try it live",
-    "desc": "A coding workspace for HTML, CSS, and JavaScript with live app previews and optional on-device AI code assistance.",
-    "role": "Founder / application engineering · ListPull",
+    "kind": "AI applications · Data retrieval and code workflows",
+    "date": "2026",
+    "desc": "Natural-language research and development workflows connecting data sources, PostgreSQL, APIs, AI models, and usable results.",
+    "role": "Founder / AI and full-stack engineering · ListPull",
     "image": "assets/studio-ai.svg",
     "alt": "Illustration of a code editor, live app preview, and optional AI chat panel",
     "credit": "Illustration of the live tool",
     "visual": "agent",
     "links": [
       [
-        "Try the workspace",
+        "Related browser example",
         "https://listpull.com/studio/ai.html"
       ]
     ],
-    "synopsis": "The AI Workspace and Code Editor combines a small development environment with a live application preview. It lets someone work on HTML, CSS, and JavaScript in the browser, run the app, review console messages, and save the result. It also contains sample applications, including dashboards and reports, that can be changed and tested. On supported devices, an optional AI assistant can answer questions about the open app and suggest code edits. Those edits are reviewed before they're applied. The engineering challenge is keeping the editor, preview, file state, and assistant in step with one another. This project reflects my interest in building complete application workflows, not just a single AI feature. It brings together front-end development, application state, user controls, and a clear way to check whether a proposed change actually works.",
+    "synopsis": "One of the applications I've worked on at ListPull handles research questions over structured data. The problem was the back-and-forth between asking a question, finding the right records, and turning those records into a useful answer. The work combined Ollama, PostgreSQL, third-party API retrieval, and responses that could be streamed as the analysis was prepared. That's a different problem from adding a chat window to a page. The request has to connect to real information, the right data needs to be retrieved, and the result needs enough context to make sense. My background also includes AI integration and building full-stack applications, so I look at how these features fit into a working system. The work is about keeping an answer tied to the records it came from, rather than asking someone to trust a response just because it sounds convincing.",
     "created": "2026",
-    "period": "Active in 2026"
+    "period": "2025–2026"
   },
   {
     "id": "05",
-    "title": "Business Insights",
+    "title": "Market Analytics & Data Platforms",
     "category": "tools",
     "group": "ListPull Studio",
-    "kind": "Browser application · Data analysis",
-    "date": "Try it live",
-    "desc": "An interactive data application for CSV processing, business scenarios, charts, and downloadable reports.",
-    "role": "Founder / data application engineering · ListPull",
+    "kind": "Data engineering · Analytics applications",
+    "date": "2026",
+    "desc": "A market analytics platform bringing multiple data feeds together through APIs, backend services, authenticated views, and time-series charts.",
+    "role": "Founder / full-stack and data engineering · ListPull",
     "image": "assets/studio-insights.svg",
     "alt": "Illustration of the Business Insights data explorer with charts and sample data",
     "credit": "Illustration of the live tool",
     "visual": "analytics",
     "links": [
       [
-        "Explore the data tool",
+        "Related browser example",
         "https://listpull.com/studio/strategy.html"
       ]
     ],
-    "synopsis": "Business Insights is a data analysis application that takes structured records and turns them into charts, comparisons, and reports. The public workspace includes sample scenarios for inventory, customers, deliveries, agriculture, wildlife tracking, public health, and public services. It also accepts CSV files, detects fields, and lets the user select what should be measured. Some scenarios go beyond a basic chart, including demand changes, location tracking, and comparing the outcomes of different strategies. The work here is about turning data into something people can actually inspect. That includes parsing files, mapping columns to useful measures, handling different kinds of input, updating the interface when options change, and showing where assumptions affect the results. It connects closely with the data platform and reporting work I've done throughout my career. The portfolio illustration is conceptual; the application itself contains the interactive reports.",
+    "synopsis": "Market data gets complicated when it comes from different providers. Each feed can have its own format, update schedule, missing values, and limits. I worked on a ListPull analytics platform that brings those sources into a common research interface. The engineering involved React and Angular views, PHP services, WordPress-backed authentication, external API integrations, and time-series charts. The hard part wasn't drawing a graph. It was collecting, organizing, and serving the information so the graph had something useful behind it. That also meant thinking through what happens when a provider is slow or its data changes. My work connected the front end to the services and data feeding it. I include this project because it shows the full-stack side of analytics, from getting information into the system to making it readable on screen. The outcome is a research view that stays usable even though the information comes from several separate systems.",
     "created": "2026",
-    "period": "Active in 2026"
+    "period": "2025–2026"
   },
   {
     "id": "06",
-    "title": "Forecast Lab",
+    "title": "Forecasting Services",
     "category": "tools",
     "group": "ListPull Studio",
-    "kind": "Browser application · Forecasting and data charts",
-    "date": "Try it live",
-    "desc": "A time-series forecasting application with CSV imports, observed-data charts, projected values, and model checks.",
-    "role": "Founder / forecasting application engineering · ListPull",
+    "kind": "Data services · Time-series forecasting",
+    "date": "2026",
+    "desc": "Node.js forecasting services using ARIMA models, per-symbol caching, data-provider integrations, and intraday and daily projections.",
+    "role": "Founder / forecasting service engineering · ListPull",
     "image": "assets/studio-forecast.svg",
     "alt": "Illustration of Forecast Lab with a line chart showing past data and a projected trend",
     "credit": "Illustration of the live tool, example values",
     "visual": "forecast",
     "links": [
       [
-        "Try Forecast Lab",
+        "Related browser example",
         "https://listpull.com/studio/forecast.html"
       ]
     ],
-    "synopsis": "Forecast Lab is an application for working with time-series data. It takes sample values, manually entered observations, or imported CSV records and produces a chart that separates past data from estimated future values. It also lets users change the forecast length, inspect the projected numbers, and download results. The public version uses a simple time-series model and compares past errors with a basic last-value forecast. That check matters because a prediction is only useful if its limits are clear. I've also worked on forecasting services using Node.js and ARIMA models, including caching and data-provider integrations, which gives this project a deeper engineering connection. The application demonstrates the interface side of that work: importing records, keeping values in time order, updating charts, and showing uncertainty without presenting a forecast as a fact.",
+    "synopsis": "Forecasting is useful when it is part of a working data pipeline, not just a line added to a chart. I built forecasting services for ListPull using Node.js and ARIMA models, with per-symbol caching and intraday and daily projections. That work sits on top of data retrieval and time-series handling. The service needs to keep observations tied to the right symbol, avoid repeating expensive model work when it can reuse a result, and return estimates without treating them like measured facts. The interface has its own job: show where the real observations stop and where the projection starts. I include this work because it connects backend services, statistical models, provider integrations, and clear data presentation. It also involves practical limits, like incomplete data and rate limits from outside services. That makes forecasting a service and integration problem as much as a modeling problem.",
     "created": "2026",
-    "period": "Active in 2026"
+    "period": "2025–2026"
   },
   {
     "id": "07",
-    "title": "ListPull Wildlife Media",
+    "title": "Wildlife Media & Publishing",
     "category": "media",
     "group": "ListPull media",
-    "kind": "Digital media · Photography and video",
+    "kind": "Digital media · Publishing experiences",
     "date": "Explore",
-    "desc": "A wildlife media project bringing together animal photography, short-form video, and cross-platform publishing.",
-    "role": "Founder / digital media direction · ListPull",
+    "desc": "A cross-platform wildlife media project connecting photography, short-form video, website presentation, and content publishing.",
+    "role": "Founder / media and platform direction · ListPull",
     "image": "https://listpull.com/wildlife.webp",
     "alt": "Wildlife photography featured on ListPull's website",
     "credit": "Real wildlife image from ListPull",
     "visual": "nature",
     "links": [
       [
-        "Visit ListPull",
+        "Published work",
         "https://listpull.com/"
       ],
       [
-        "Watch on YouTube",
+        "Media channel",
         "https://www.youtube.com/@listpull"
       ]
     ],
-    "synopsis": "ListPull's wildlife media work includes animal photography, nature videos, short clips, and stories published across the company's website and social channels. It sits alongside the software work because digital media is part of my background and part of what ListPull builds. A media project involves decisions about how content is organized, presented, and shared, not just how the footage is captured. The visual identity, page layout, links between channels, and way the content works on different screens all shape the experience. That same thinking shows up in our game and creative applications. As ListPull's founder, I'm involved in the wider product and platform direction. I'm not claiming to have photographed every animal or edited every video. This project represents how media, design, and software come together under the same company.",
+    "synopsis": "ListPull's wildlife work brings together animal photography, short videos, and stories shared through its website and social channels. The project is about more than making individual pieces of media. Content needs to be organized, sized for different screens, presented consistently, and connected so people can find related work. My role is in the company's product and platform direction, not a claim that I photographed every animal or edited every clip. This work draws on my background in digital media and on the software side of publishing: page layouts, navigation, media handling, and keeping a recognizable presentation across different places. It also overlaps with Blobby and ListPull's creative applications. I include it because not every technical project is an enterprise dashboard. Building a good experience around pictures and video still involves product choices, engineering decisions, and plenty of details that people notice when they don't work.",
     "created": "2026",
     "period": "2026"
   },
@@ -180,7 +180,7 @@
     "group": "Accenture",
     "kind": "Enterprise application · AI and cloud architecture",
     "date": "2023 to 2025",
-    "desc": "A React clinic-recommendation feature connecting lab data with AWS processing, PostgreSQL, and semantic search.",
+    "desc": "An AI-assisted clinic recommendation feature built into a React application, backed by AWS workflows, PostgreSQL, Bedrock, and OpenSearch.",
     "role": "Software engineering manager · Accenture",
     "image": "assets/clinical-ai.svg",
     "alt": "Simplified diagram of the clinical recommendation pipeline, not a client screen",
@@ -198,7 +198,7 @@
     "group": "Accenture",
     "kind": "Enterprise systems · Cloud integrations",
     "date": "2021 to 2023",
-    "desc": "Public-health application integrations connecting Salesforce, AWS contact-center services, and follow-up workflows.",
+    "desc": "Connected Salesforce contact-center operations with AWS services to support call routing, digital vaccination records, and public-health follow-up work.",
     "role": "Application architect and senior engineer · Accenture",
     "image": "assets/public-health.svg",
     "alt": "Simplified diagram of public health system integrations, not a client screen",
@@ -216,7 +216,7 @@
     "group": "BAE Systems",
     "kind": "Public website · Data visualization",
     "date": "2019 to 2021",
-    "desc": "The Bureau of Labor Statistics website modernization using React, government data APIs, accessible charts, and publishing tools.",
+    "desc": "Modernized public statistical reports with reusable React components, Highcharts visualizations, government APIs, and automated publishing tools.",
     "role": "Lead web developer · BAE Systems",
     "image": "assets/public-data.svg",
     "alt": "Illustration of a public data dashboard, not an official BLS screenshot",

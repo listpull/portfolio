@@ -39,3 +39,14 @@ The public forecasting example uses a simple time-series model, while earlier en
 AI assistance requires compatible devices and user opt-in. Other applications are publicly accessible examples of ListPull's work. Descriptions of client projects reflect the provided resume, without private project details.
 
 Keep the difference between original site imagery, portfolio artwork, and client diagrams clear.
+
+## Portfolio interpretation
+
+The five linked Studio applications are **related browser examples**, not the full production applications or services described in the portfolio. The market data platform, forecasting service, and natural-language research workflow involve data and back-end engineering beyond the browser examples.
+
+Project details draw on Jay's resume, the original long-form portfolio descriptions, and ListPull's Engineering and Solutions pages. Do not treat a CSV uploader, sample data, or a browser-only model as proof of the full product's data architecture.
+
+- Engineering: https://listpull.com/engineering.html
+- Solutions: https://listpull.com/solutions.html
+
+These notes apply to the portfolio's project references and should not be replaced by promotional descriptions of the example applications.

@@ -1,34 +1,31 @@
 # Jay Monga's portfolio
 
-A portfolio showing my work at ListPull and on engineering teams at Accenture and BAE Systems.
+My work includes mobile games, creative applications, AI research, data platforms, forecasting services, and public-sector software.
 
-**Website:** https://listpull.github.io/portfolio/  
+**Portfolio:** https://listpull.github.io/portfolio/  
 **ListPull:** https://listpull.com/
 
-## What's here
+## How the portfolio is organized
 
-The site follows the original editorial layout, with a hero, the full-width engineering banner, three cards explaining my approach, ten project stories, a career timeline, and an about section.
+The site shows ten projects, each with a technical summary, a project period, and an expandable story of at least 100 words. The stories focus on the engineering problems, underlying systems, and work done, not on selling browser tools.
 
-Each project has an image, a year, a project period, a short introduction, and an expandable story of at least 100 words. The ListPull applications link to public examples of the engineering and creative work. The client-work diagrams are illustrations and don't show private information.
+For five ListPull engineering projects, the links lead to related browser examples published through ListPull Studio. Those examples demonstrate selected features or interaction patterns; they are not the complete underlying applications or connected services. In particular, the CSV upload in a public data example should not be mistaken for the data sources or integration work used in the market analytics platform.
+
+The portfolio keeps the original banner, career timeline, and about section. The Approach section is intentionally absent.
 
 ## Files
 
-- `index.html` contains the site and the project cards.
-- `projects.json` keeps the same project text, links, images, and dates in one reusable place.
-- `styles.css` handles the layout and mobile styling.
-- `script.js` runs the mobile menu, project filters, and copy-email action.
-- `docs/PORTFOLIO_PIECES.md` has all ten longer project stories.
-- `docs/CONTENT_AND_CREDITS.md` explains the image sources and links.
-- `assets/` contains the illustrations and fallback artwork.
+- `index.html`: the published page and its project cards.
+- `projects.json`: the project titles, dates, full stories, images, and links.
+- `docs/PORTFOLIO_PIECES.md`: the same project content in Markdown.
+- `styles.css`: responsive styling.
+- `script.js`: navigation, filtering, and copy-email.
+- `docs/CONTENT_AND_CREDITS.md`: source notes and image credits.
 
-## Run locally
+To preview locally, run `python -m http.server 8000` and open http://localhost:8000.
 
-Use `python -m http.server 8000` and open http://localhost:8000.
+GitHub Pages deploys when changes are merged into `main`.
 
-GitHub Pages publishes this repository's main branch.
+## Sources and images
 
-## Image and date notes
-
-Blobby, creative media, video-related artwork, and wildlife cards use images published on ListPull's website. The AI workspace, data analysis, and forecasting cards retain explanatory illustrations. None of the illustrations are presented as product screenshots. Older client projects use simplified diagrams.
-
-Periods for the older work follow the original portfolio. For newer Studio tools, **Active in 2026** means the tool is part of ListPull's current 2026 work. It doesn't claim a verified original start date.
+Technical details are based on Jay's resume, the earlier portfolio project descriptions, and the public ListPull Engineering and Solutions pages. Some images are published ListPull media; others are clearly identified conceptual diagrams, not production screenshots.
