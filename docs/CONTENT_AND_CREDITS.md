@@ -1,37 +1,31 @@
-# Content, evidence, and image credits
+# Images and links
 
-This portfolio tells Jay Monga’s career story using the supplied two-page résumé and publicly accessible ListPull product material (verified November 13, 2026). Corporate and internal deliverables are **not** reproduced; technical diagrams are original illustrations made specifically for this portfolio and marked as such.
+Updated November 17, 2026.
 
-**Public sources and linked live media**
+The portfolio keeps images honest and links directly to working ListPull applications.
 
-- https://listpull.com/ — ListPull’s public landing page, wildlife media, and game.
-- https://listpull.com/blobby/wiki/ — Blobby’s Woodland Wonder gameplay guide and screenshots.
-- https://apps.apple.com/us/app/blobbys-woodland-wonder/id1507379429
-- https://play.google.com/store/apps/details?id=com.listpull.matchblock4
-- https://www.instagram.com/listpull/ — ListPull-linked public wildlife channel.
-- https://www.youtube.com/@listpull — ListPull-linked YouTube channel.
+## ListPull's live pages
 
-**Externally hosted images (loaded from ListPull only)**
+- Blobby game: https://listpull.com/blobby.html
+- Creative Studio: https://listpull.com/studio/image-editor.html
+- Video Studio: https://listpull.com/studio/video-editor.html
+- AI Workspace and Code Editor: https://listpull.com/studio/ai.html
+- Business Insights: https://listpull.com/studio/strategy.html
+- Forecast Lab: https://listpull.com/studio/forecast.html
+- ListPull Studio hub: https://listpull.com/studio.html
+- ListPull Labs: https://listpull.com/labs.html
+- Engineering: https://listpull.com/solutions.html
 
-- https://listpull.com/blobby-real-round-shadow.webp
-- https://listpull.com/blobby/wiki/assets/images/blobby/IMG_0167-14.webp
+## Artwork
 
-Those images are embedded by URL, not bundled into this ZIP. Their availability and reuse permissions are the site owner's responsibility. Local fallback illustrations are used when internet access is unavailable. Other assets in `assets/` are authored graphic interpretations, not screenshots of private systems. There are no fabricated outcome metrics, endorsements, personal URLs, or client interface images.
+- The game card shows a real public ListPull image from https://listpull.com/IMG_4905-4.jpg.
+- The top of the site shows a real public Blobby gameplay image from https://listpull.com/blobby/wiki/assets/images/blobby/IMG_0159-12-8.webp.
+- `assets/studio-creative.svg`, `studio-video.svg`, `studio-ai.svg`, `studio-insights.svg`, `studio-forecast.svg`, and `wildlife-media.svg` are original illustrations made for this portfolio. They suggest what the tools do, but they are not screen captures.
+- `assets/clinical-ai.svg`, `public-health.svg`, and `public-data.svg` are simplified illustrations. No private client screens or data are shown.
+- `assets/blobby-fallback.svg` is used if a remote image can't load.
 
-**Content verification notes**
+## Credit and accuracy notes
 
-- Résumé establishes the roles, technologies, and chronology of professional work.
-- Public ListPull sources establish that Blobby is an actual published mobile game; public app listings show its initial release in 2020 and continued updates. Game artwork, footage, and UI may be collaborative work; the site attributes those images to ListPull rather than claiming personal illustration credit.
-- Technical mockups contain fictitious/example data and are labeled appropriately.
-- The reference storyboard featured an unspecified mobile game and investing dashboard. They were adapted here to the publicly verifiable Blobby game and the résumé’s ListPull analytics work.
-- Contact details come from the user’s supplied résumé; revisit before public publishing if needed.
+Descriptions of ListPull tools are based on their public pages. Some features, including the AI assistant, depend on device support. The portfolio doesn't claim every app or tool works on every device.
 
-**Source ideas for presentation**
-
-- https://blog.udemy.com/professional-portfolio-examples/
-- https://portfolio.fandom.com/wiki/Sequencing
-- https://www.hongkiat.com/blog/creating-professional-portfolio-site/
-
-**Before publication**
-
-Confirm ownership and attribution for ListPull assets, the public scope of case studies, any updated years or wording, and whether to add a personal headshot or new media clips.
+Work history is based on Jay's resume. Client projects are described at a high level without confidential details. Do not present conceptual diagrams as client screenshots.
