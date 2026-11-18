@@ -24,7 +24,7 @@
  <div class="container nav-wrap">
   <a href="#top" class="brand" aria-label="Jay Monga, back to top"><span class="brand-symbol">JM</span><span class="brand-wordmark">Jay Monga<small>Software engineer / ListPull founder</small></span></a>
   <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
-    <a href="#top">Home</a><a href="#work">Work</a><a href="#journey">Experience</a><a href="#about">About</a><a href="#contact">Contact</a>
+    <a href="#top">Home</a><a href="#work">Work</a><a href="#journey">Journey</a><a href="#about">About</a><a href="#contact">Contact</a>
   </nav>
   <a class="nav-cta" href="Jay_Monga_Resume.pdf" target="_blank" rel="noopener">Resume <span aria-hidden="true">↗</span></a>
   <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open menu"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
@@ -34,8 +34,8 @@
  <section class="hero" aria-labelledby="hero-title"><div class="container hero-grid">
   <div class="hero-copy">
     <div class="eyebrow">Hi, I'm Jay Monga</div>
-    <h1 id="hero-title">I build software people can <em>actually use.</em></h1>
-    <p class="hero-lead">I'm a software engineer and founder of ListPull. I build web apps, AI tools, games, and the systems that keep them running.</p>
+    <h1 id="hero-title">I build what people see, and <em>what keeps it working.</em></h1>
+    <p class="hero-lead">I'm a software engineer and the founder of ListPull. I've spent more than a decade building websites, cloud systems, games, and creative tools. I like making the whole thing work, from the screen people use to the code behind it.</p>
     <div class="hero-actions">
       <a href="#work" class="btn btn-dark">See my work <span aria-hidden="true">↓</span></a>
       <a href="https://listpull.com/studio.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Try the tools <span aria-hidden="true">↗</span></a>
@@ -53,26 +53,70 @@
     <div class="float-orbit">BUILT BY LISTPULL<br/>PLAY IT FREE</div>
   </div>
 </div></section>
+<div class="ticker" aria-label="What I work on">
+  <div class="container ticker-inner">
+    <span>DIGITAL EXPERIENCES</span><i aria-hidden="true">✳</i>
+    <span>FULL-STACK ENGINEERING</span><i aria-hidden="true">✳</i>
+    <span>AI + DATA SYSTEMS</span><i aria-hidden="true">✳</i>
+    <span>CREATIVE TECHNOLOGY</span>
+  </div>
+</div>
+<section class="philosophy container" aria-labelledby="intro-title">
+  <p class="section-kicker">00 / The approach</p>
+  <div class="philosophy-top">
+    <h2 class="section-heading" id="intro-title">One career.<br/><em>Three ways of thinking.</em></h2>
+    <p class="body-copy">I started out writing tools for designers. Since then I've worked on public websites, big cloud projects, and apps of my own. The work has changed, but I still come back to three things.</p>
+  </div>
+  <div class="principles">
+    <article class="principle">
+      <span class="principle-number">01 / EXPERIENCE</span>
+      <div class="principle-icon" aria-hidden="true">✧</div>
+      <h3>Make it easy to use.</h3>
+      <p>People shouldn't have to figure out how an app works. I try to make the next step clear, whether it's a game, an editor, or a data chart.</p>
+    </article>
+    <article class="principle">
+      <span class="principle-number">02 / ENGINEERING</span>
+      <div class="principle-icon" aria-hidden="true">⌘</div>
+      <h3>Make it work well.</h3>
+      <p>Good software needs more than a nice screen. I care about the APIs, data, testing, and code that keep it working behind the scenes.</p>
+    </article>
+    <article class="principle">
+      <span class="principle-number">03 / PRODUCT</span>
+      <div class="principle-icon" aria-hidden="true">↗</div>
+      <h3>Build it, then improve it.</h3>
+      <p>I like getting a useful version out, seeing how people use it, and making changes. That's how an idea becomes something worth keeping.</p>
+    </article>
+  </div>
+</section>
 <section class="work" id="work" aria-labelledby="work-title"><div class="container">
-  <p class="section-kicker">Projects</p>
-  <div class="work-heading"><h2 class="section-heading" id="work-title">Things I've <em>worked on.</em></h2><p>Try the ListPull apps, take a look at the game, or see some of my past work.</p></div>
-  <div class="filter-bar" role="group" aria-label="Filter projects">
+  <p class="section-kicker">01 / Selected work</p>
+  <div class="work-heading">
+    <h2 class="section-heading" id="work-title">The work, <em>in context.</em></h2>
+    <p>Some of these are my own products. Others are projects I worked on with bigger teams. Open a card to read the story, or follow the links to try the live apps.</p>
+  </div>
+  <div class="filter-bar" role="group" aria-label="Filter portfolio projects">
     <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">All <span id="visible-count">10</span></button>
     <button type="button" class="filter-btn" data-filter="tools" aria-pressed="false">Apps and tools</button>
     <button type="button" class="filter-btn" data-filter="media" aria-pressed="false">Game and media</button>
     <button type="button" class="filter-btn" data-filter="client" aria-pressed="false">Client work</button>
   </div>
-  <div class="work-grid"><article id="piece-01" class="project-card feature" data-category="media" aria-labelledby="title-01">
+  <div class="work-grid">
+    <article id="piece-01" class="project-card feature" data-category="media" aria-labelledby="title-01">
   <div class="media blobby">
     <img class="asset" src="https://listpull.com/IMG_4905-4.jpg" alt="Actual Blobby's Woodland Wonder gameplay showing animal puzzles and a floating forest" loading="eager" decoding="async" fetchpriority="high" onerror="this.onerror=null;this.src='assets/blobby-fallback.svg';this.closest('.media').querySelector('.media-credit').textContent='Image unavailable'" />
     <div class="media-tags"><span class="media-tag">Mobile puzzle game</span></div>
     <div class="media-credit">Real game image from ListPull</div>
   </div>
   <div class="card-text">
-    <div class="card-topline"><span class="number">ListPull game</span><span>Available now</span></div>
+    <div class="card-topline"><span class="number">PIECE 01 / 10</span><span>CREATED 2020</span></div>
     <h3 id="title-01">Blobby's Woodland Wonder</h3>
     <p class="card-deck">A puzzle game where you match animals, sort stacks, and build a forest village. It's free on iOS and Android.</p>
-    <p class="card-period">ListPull founder</p>
+    <p class="card-period">Project period: 2020–2026</p>
+    <details class="story" open>
+      <summary><span class="story-closed">Read the story</span><span class="story-open">Close story</span><span class="chevron" aria-hidden="true">+</span></summary>
+      <p>Blobby's Woodland Wonder is a puzzle game published by ListPull, the company I founded. Players can match animals, sort stacks, build little houses, and move through a colorful woodland world. I like this project because it brings together two sides of my work that don't always show up in the same place: writing software and making something people enjoy spending time with. A game has to feel simple when you're playing it, even when there's a lot happening behind the screen. The menus, game rules, artwork, and way each level feels all have to work together. As ListPull's founder, I help guide the product and its engineering. I'm not claiming I personally created every character or visual. What I'm proud of is helping bring the whole experience together and making it available on phones.</p>
+      <p class="role">My role: ListPull founder</p>
+    </details>
     <div class="card-actions"><a href="https://listpull.com/blobby.html" target="_blank" rel="noopener noreferrer">Meet Blobby <span aria-hidden="true">↗</span></a><a href="https://apps.apple.com/us/app/blobbys-woodland-wonder/id1507379429" target="_blank" rel="noopener noreferrer">App Store <span aria-hidden="true">↗</span></a><a href="https://play.google.com/store/apps/details?id=com.listpull.matchblock4" target="_blank" rel="noopener noreferrer">Google Play <span aria-hidden="true">↗</span></a></div>
   </div>
 </article>
@@ -83,10 +127,15 @@
     <div class="media-credit">Illustration of the live tool</div>
   </div>
   <div class="card-text">
-    <div class="card-topline"><span class="number">ListPull Studio</span><span>Try it live</span></div>
+    <div class="card-topline"><span class="number">PIECE 02 / 10</span><span>FEATURED 2026</span></div>
     <h3 id="title-02">Creative Studio</h3>
     <p class="card-deck">Edit photos, add text and shapes, work with layers, and export your designs. It all runs in your browser.</p>
-    <p class="card-period">ListPull product</p>
+    <p class="card-period">Project period: Active in 2026</p>
+    <details class="story">
+      <summary><span class="story-closed">Read the story</span><span class="story-open">Close story</span><span class="chevron" aria-hidden="true">+</span></summary>
+      <p>Creative Studio is a browser-based editor for working with pictures and simple designs. You can bring in an image, add text or shapes, arrange things in layers, and export the result. I wanted this tool in my portfolio because it shows the kind of software I enjoy building: something practical that people can open and use without learning a complicated setup first. Editing tools are full of small decisions. A button needs to be where you expect it, the canvas needs to respond as you work, and you need to understand what you're changing. The challenge is making those details feel straightforward without losing useful options. This is part of the ListPull Studio collection, and the link takes you to the working editor. The picture here is an illustration of the tool, not a screenshot of someone's project.</p>
+      <p class="role">My role: ListPull product</p>
+    </details>
     <div class="card-actions"><a href="https://listpull.com/studio/image-editor.html" target="_blank" rel="noopener noreferrer">Open the editor <span aria-hidden="true">↗</span></a></div>
   </div>
 </article>
@@ -97,10 +146,15 @@
     <div class="media-credit">Illustration of the live tool</div>
   </div>
   <div class="card-text">
-    <div class="card-topline"><span class="number">ListPull Studio</span><span>Try it live</span></div>
+    <div class="card-topline"><span class="number">PIECE 03 / 10</span><span>FEATURED 2026</span></div>
     <h3 id="title-03">Video Studio</h3>
     <p class="card-deck">Cut clips, add titles, adjust audio, and export videos. You can start with a sample project.</p>
-    <p class="card-period">ListPull product</p>
+    <p class="card-period">Project period: Active in 2026</p>
+    <details class="story">
+      <summary><span class="story-closed">Read the story</span><span class="story-open">Close story</span><span class="chevron" aria-hidden="true">+</span></summary>
+      <p>Video Studio gives people a place to put together clips in their browser. The idea is familiar: bring in video, work on a timeline, make cuts, add titles, adjust sound, and export what you've made. There's also a sample project, so someone can explore the editor before bringing their own footage. I like working on products like this because a video editor has to handle a lot without making the screen feel crowded. People need to see where they are in a clip, understand which part they're changing, and feel comfortable trying things out. Small improvements to playback controls, labels, and editing steps can make a big difference. This project also fits ListPull's wider interest in media and storytelling. The card links to the actual editor; the artwork is a visual example of its workspace.</p>
+      <p class="role">My role: ListPull product</p>
+    </details>
     <div class="card-actions"><a href="https://listpull.com/studio/video-editor.html" target="_blank" rel="noopener noreferrer">Open video editor <span aria-hidden="true">↗</span></a></div>
   </div>
 </article>
@@ -111,10 +165,15 @@
     <div class="media-credit">Illustration of the live tool</div>
   </div>
   <div class="card-text">
-    <div class="card-topline"><span class="number">ListPull Studio</span><span>Try it live</span></div>
+    <div class="card-topline"><span class="number">PIECE 04 / 10</span><span>FEATURED 2026</span></div>
     <h3 id="title-04">AI Workspace and Code Editor</h3>
     <p class="card-deck">Edit HTML, CSS, and JavaScript, then run the app right in your browser. An optional AI assistant can help on supported devices.</p>
-    <p class="card-period">ListPull product</p>
+    <p class="card-period">Project period: Active in 2026</p>
+    <details class="story">
+      <summary><span class="story-closed">Read the story</span><span class="story-open">Close story</span><span class="chevron" aria-hidden="true">+</span></summary>
+      <p>This ListPull workspace brings coding and AI help into the same place. You can edit HTML, CSS, and JavaScript, run what you've written, and see a preview without switching between several apps. On supported devices, there's also an optional AI assistant. What interests me here is how people move from an idea to something they can test. You write a small change, run it, see what happened, and try again. That loop should feel quick and clear, especially when you're learning or experimenting. AI can help with parts of the process, but you still need to be able to read the code and judge whether the result works. I want the tool to be useful even without the assistant. This card shows an illustration, and the link opens the real workspace.</p>
+      <p class="role">My role: ListPull product</p>
+    </details>
     <div class="card-actions"><a href="https://listpull.com/studio/ai.html" target="_blank" rel="noopener noreferrer">Try the workspace <span aria-hidden="true">↗</span></a></div>
   </div>
 </article>
@@ -125,10 +184,15 @@
     <div class="media-credit">Illustration of the live tool</div>
   </div>
   <div class="card-text">
-    <div class="card-topline"><span class="number">ListPull Studio</span><span>Try it live</span></div>
+    <div class="card-topline"><span class="number">PIECE 05 / 10</span><span>FEATURED 2026</span></div>
     <h3 id="title-05">Business Insights</h3>
     <p class="card-deck">Pick a sample about sales, deliveries, or wildlife, or upload a CSV. Explore the numbers with charts and comparisons.</p>
-    <p class="card-period">ListPull product</p>
+    <p class="card-period">Project period: Active in 2026</p>
+    <details class="story">
+      <summary><span class="story-closed">Read the story</span><span class="story-open">Close story</span><span class="chevron" aria-hidden="true">+</span></summary>
+      <p>Business Insights is a way to explore a set of numbers without having to build a dashboard from scratch. You can choose a sample about inventory, customers, deliveries, or wildlife, or bring your own CSV file. From there, you can look at charts, compare values, and get a clearer picture of what's going on in the data. I like this kind of project because a useful chart is more than a line or a bar. People need to know what they're looking at, which numbers matter, and where the data came from. I spend a lot of time thinking about those details when I build data tools. The goal isn't to make every screen look busy or impressive. It's to help someone spot something they might have missed in a spreadsheet. You can open the live tool from this card.</p>
+      <p class="role">My role: ListPull product</p>
+    </details>
     <div class="card-actions"><a href="https://listpull.com/studio/strategy.html" target="_blank" rel="noopener noreferrer">Explore the data tool <span aria-hidden="true">↗</span></a></div>
   </div>
 </article>
@@ -139,10 +203,15 @@
     <div class="media-credit">Illustration of the live tool, example values</div>
   </div>
   <div class="card-text">
-    <div class="card-topline"><span class="number">ListPull Studio</span><span>Try it live</span></div>
+    <div class="card-topline"><span class="number">PIECE 06 / 10</span><span>FEATURED 2026</span></div>
     <h3 id="title-06">Forecast Lab</h3>
     <p class="card-deck">Use sample numbers or your own CSV to see a trend, test a forecast, and check how the model did against past data.</p>
-    <p class="card-period">ListPull product</p>
+    <p class="card-period">Project period: Active in 2026</p>
+    <details class="story">
+      <summary><span class="story-closed">Read the story</span><span class="story-open">Close story</span><span class="chevron" aria-hidden="true">+</span></summary>
+      <p>Forecast Lab lets you take a set of past numbers and see what a model thinks might happen next. You can start with sample data or upload a CSV, look at the trend, run a forecast, and compare the model with earlier results. I've also worked on forecasting services using Node.js and ARIMA, so this is an area I know from the engineering side as well. The most important part for me is keeping the difference between real data and an estimate easy to see. A forecast can be useful without being certain, and the screen shouldn't pretend otherwise. Charts need clear labels, sensible time ranges, and room for a result that isn't perfect. This is a tool for exploring patterns, not a promise about the future. The illustration uses example values, and the link opens the app.</p>
+      <p class="role">My role: ListPull product</p>
+    </details>
     <div class="card-actions"><a href="https://listpull.com/studio/forecast.html" target="_blank" rel="noopener noreferrer">Try Forecast Lab <span aria-hidden="true">↗</span></a></div>
   </div>
 </article>
@@ -153,10 +222,15 @@
     <div class="media-credit">Original illustration, not wildlife footage</div>
   </div>
   <div class="card-text">
-    <div class="card-topline"><span class="number">ListPull media</span><span>Explore</span></div>
+    <div class="card-topline"><span class="number">PIECE 07 / 10</span><span>FEATURED 2026</span></div>
     <h3 id="title-07">ListPull Wildlife Media</h3>
     <p class="card-deck">Nature videos, wildlife stories, and game updates shared through ListPull's channels.</p>
-    <p class="card-period">ListPull company work</p>
+    <p class="card-period">Project period: 2026</p>
+    <details class="story">
+      <summary><span class="story-closed">Read the story</span><span class="story-open">Close story</span><span class="chevron" aria-hidden="true">+</span></summary>
+      <p>ListPull has always been interested in nature, animals, and the kinds of stories people want to share. Alongside our games and software tools, the company publishes wildlife videos, short clips, and updates across its channels. I wanted to keep that side of the company in my portfolio because it explains why our work doesn't fit into just one box. Sometimes we're building an app. Sometimes we're thinking about how a story looks, sounds, or reaches people. Those things influence each other. Working around media has made me pay closer attention to how images, timing, and simple navigation change the way someone experiences a product. The linked videos and posts are company-published work. I'm not claiming to have filmed or edited every piece of wildlife footage myself. The image on this card is an original illustration, not a video still.</p>
+      <p class="role">My role: ListPull company work</p>
+    </details>
     <div class="card-actions"><a href="https://listpull.com/" target="_blank" rel="noopener noreferrer">Visit ListPull <span aria-hidden="true">↗</span></a><a href="https://www.youtube.com/@listpull" target="_blank" rel="noopener noreferrer">Watch on YouTube <span aria-hidden="true">↗</span></a></div>
   </div>
 </article>
@@ -167,10 +241,15 @@
     <div class="media-credit">Simplified diagram, no client data</div>
   </div>
   <div class="card-text">
-    <div class="card-topline"><span class="number">Accenture</span><span>2023 to 2025</span></div>
+    <div class="card-topline"><span class="number">PIECE 08 / 10</span><span>CREATED 2023</span></div>
     <h3 id="title-08">Clinic Recommendations</h3>
     <p class="card-deck">I led work on a React feature that helped find relevant clinics using lab data. Behind it were AWS services, PostgreSQL, Bedrock, and OpenSearch.</p>
-    <p class="card-period">Software engineering manager · Accenture</p>
+    <p class="card-period">Project period: 2023–2025</p>
+    <details class="story">
+      <summary><span class="story-closed">Read the story</span><span class="story-open">Close story</span><span class="chevron" aria-hidden="true">+</span></summary>
+      <p>At Accenture, I led engineering work on a clinic recommendation feature for Bristol Myers Squibb. The feature was added to an existing React application and used lab information to help surface relevant clinic options. On the back end, the work involved AWS Step Functions, Lambda, PostgreSQL, Bedrock embeddings, and OpenSearch. My role included helping the team connect these pieces and make the result usable in the application people already had. What I took away from this project is that AI features don't live on their own. They still need dependable data, clear rules, careful testing, and an interface that makes sense to the person using it. This was also sensitive work, so the portfolio doesn't show private data or a real client screen. The diagram is a simplified view of how the systems fit together, not a copy of the production setup.</p>
+      <p class="role">My role: Software engineering manager · Accenture</p>
+    </details>
     
   </div>
 </article>
@@ -181,10 +260,15 @@
     <div class="media-credit">Simplified diagram, no client data</div>
   </div>
   <div class="card-text">
-    <div class="card-topline"><span class="number">Accenture</span><span>2021 to 2023</span></div>
+    <div class="card-topline"><span class="number">PIECE 09 / 10</span><span>CREATED 2021</span></div>
     <h3 id="title-09">Public Health Systems</h3>
     <p class="card-deck">I helped connect Salesforce and AWS Connect for public health call centers. I also worked on digital vaccination records and disease tracking tools.</p>
-    <p class="card-period">Application architect and senior engineer · Accenture</p>
+    <p class="card-period">Project period: 2021–2023</p>
+    <details class="story">
+      <summary><span class="story-closed">Read the story</span><span class="story-open">Close story</span><span class="chevron" aria-hidden="true">+</span></summary>
+      <p>At Accenture, I worked on public health systems that had to pass information between different tools and teams. One part of the work connected Salesforce contact center operations with AWS Connect, so calls and follow-up steps could move through a more organized process. I also worked on digital vaccination record access and disease tracking workflows. These projects taught me how much time can be lost when people have to repeat a step or copy information from one system to another. The technical work included APIs, cloud services, routing rules, and data handling, but the reason for building them was practical: make the work easier for the people doing it. I worked as a senior engineer and later in an architecture leadership role. The image is a general diagram, not a government system or an actual patient record.</p>
+      <p class="role">My role: Application architect and senior engineer · Accenture</p>
+    </details>
     
   </div>
 </article>
@@ -195,36 +279,59 @@
     <div class="media-credit">Illustration, not a BLS screenshot</div>
   </div>
   <div class="card-text">
-    <div class="card-topline"><span class="number">BAE Systems</span><span>2019 to 2021</span></div>
+    <div class="card-topline"><span class="number">PIECE 10 / 10</span><span>CREATED 2019</span></div>
     <h3 id="title-10">Bureau of Labor Statistics Website</h3>
     <p class="card-deck">I helped modernize the BLS website with React components, clearer data charts, and tools that made publishing easier.</p>
-    <p class="card-period">Lead web developer · BAE Systems</p>
+    <p class="card-period">Project period: 2019–2021</p>
+    <details class="story">
+      <summary><span class="story-closed">Read the story</span><span class="story-open">Close story</span><span class="chevron" aria-hidden="true">+</span></summary>
+      <p>At BAE Systems, I helped modernize the public Bureau of Labor Statistics website for the U.S. Department of Labor. I worked on reusable React components, charts built with Highcharts, and pages that pulled in government data through APIs. I also wrote tests and helped with publishing tools for articles, images, and PDFs. This kind of work isn't flashy, but it matters. People visit public data websites because they need to find a number, understand a chart, or check something they heard. If the page is hard to use or the data is presented poorly, the information isn't doing its job. I learned a lot about accessibility, careful testing, and keeping a large website consistent while different teams work on it. The image here is an illustration, not an official BLS screenshot. You can follow the link to the public site.</p>
+      <p class="role">My role: Lead web developer · BAE Systems</p>
+    </details>
     <div class="card-actions"><a href="https://www.bls.gov/" target="_blank" rel="noopener noreferrer">Visit BLS.gov <span aria-hidden="true">↗</span></a></div>
   </div>
-</article></div>
-  <p class="work-footnote">The ListPull tool images are illustrations. The links open the real apps. Client images are simplified diagrams and don't show private systems or data.</p>
+</article>
+  </div>
+  <p class="work-footnote">ListPull tool images are illustrations, but the links open the real apps. Client project images are simplified diagrams, not screenshots of private work.</p>
 </div></section>
 <section class="journey container" id="journey" aria-labelledby="journey-title">
-  <p class="section-kicker">Experience</p>
-  <div class="journey-head"><h2 class="section-heading" id="journey-title">Where I've <em>worked.</em></h2><p class="body-copy">I've worked on public websites, business systems, cloud services, and my own products.</p></div>
-  <div class="timeline" aria-label="Work history">
-    <div class="timeline-row"><div class="timeline-year">2025 to now</div><div class="timeline-name">ListPull</div><p class="timeline-body">Building the tools, apps, and games you can explore above.</p></div>
-    <div class="timeline-row"><div class="timeline-year">2021 to 2025</div><div class="timeline-name">Accenture</div><p class="timeline-body">Led engineers and built cloud, AI, and public health applications.</p></div>
-    <div class="timeline-row"><div class="timeline-year">2019 to 2021</div><div class="timeline-name">BAE Systems</div><p class="timeline-body">Worked on the Bureau of Labor Statistics website and public data tools.</p></div>
-    <div class="timeline-row"><div class="timeline-year">2017 to 2019</div><div class="timeline-name">ListPull</div><p class="timeline-body">Started the company and built its early web and mobile products.</p></div>
-    <div class="timeline-row"><div class="timeline-year">2012 to 2017</div><div class="timeline-name">Champion Teamwear and Hardgainz</div><p class="timeline-body">Automated design work and built app integrations, payment features, and reporting tools.</p></div>
+  <p class="section-kicker">02 / The journey</p>
+  <div class="journey-head">
+    <h2 class="section-heading" id="journey-title">How I <em>got here.</em></h2>
+    <p class="body-copy">I didn't start out working on cloud systems or AI. I started with artwork and a lot of repetitive tasks that seemed like they should be easier. Each job since then has changed how I build things.</p>
+  </div>
+  <div class="timeline" aria-label="Career journey">
+    <div class="timeline-row"><div class="timeline-year">2012 – 2015</div><div class="timeline-name">It started with design tools.</div><p class="timeline-body">At Champion Teamwear, I wrote JavaScript to automate work in Adobe Illustrator and Photoshop. Seeing what a small tool could save someone made me want to build more of them.</p></div>
+    <div class="timeline-row"><div class="timeline-year">2015 – 2019</div><div class="timeline-name">Then I started building products.</div><p class="timeline-body">At Hardgainz, I worked on payments, app integrations, and reporting. I started ListPull in 2017 and began building my own software across web and mobile.</p></div>
+    <div class="timeline-row"><div class="timeline-year">2019 – 2021</div><div class="timeline-name">I worked on a site used by the public.</div><p class="timeline-body">At BAE Systems, I helped improve the Bureau of Labor Statistics website. I learned how much testing, accessibility, and clear data matter when a lot of people depend on a site.</p></div>
+    <div class="timeline-row"><div class="timeline-year">2021 – 2025</div><div class="timeline-name">I started leading larger teams.</div><p class="timeline-body">At Accenture, I moved from senior engineer into architecture and management. I led teams working on cloud systems, public health tools, and AI features for enterprise clients.</p></div>
+    <div class="timeline-row"><div class="timeline-year">2025 – now</div><div class="timeline-name">I'm back to building at ListPull.</div><p class="timeline-body">Now I'm focused on apps and tools people can actually open and try. That includes creative editors, coding tools, data projects, and games.</p></div>
+  </div>
+  <div class="journey-bottom">
+    <div class="leadership-card">
+      <p class="micro">What changed</p>
+      <h3>I've learned to think beyond the code.</h3>
+      <p>Working with designers, engineers, and clients taught me to look at the whole product, not just the part I was building. I still like getting into the code myself.</p>
+    </div>
+    <div class="goal-card">
+      <p class="micro">What I'm building toward</p>
+      <h3>More useful tools, better everyday experiences.</h3>
+      <p>I want to keep building products that make something easier, faster, or more enjoyable. That might be a creative app, a data tool, a game, or a system that helps a team do its job. I enjoy leading people, but I also want to stay close to the work and keep making things.</p>
+      <div class="skill-list"><span>Product design</span><span>Full-stack software</span><span>Cloud systems</span><span>AI tools</span><span>Engineering teams</span></div>
+    </div>
   </div>
 </section>
 <section class="about" id="about" aria-labelledby="about-title"><div class="container about-wrap">
-  <div class="identity-panel" role="img" aria-label="JM initials"><span class="identity-label">A little about me</span><strong>JM.</strong><span class="identity-note">I like building things.</span></div>
+  <div class="identity-panel" role="img" aria-label="Jay Monga initials in an illustrated graphic"><span class="identity-label">In a few words</span><strong>JM.</strong><span class="identity-note">A builder, first.</span></div>
   <div class="about-content">
-    <p class="section-kicker">About</p>
-    <h2 class="section-heading" id="about-title">I write code.<br/><em>I ship products.</em></h2>
-    <p class="body-copy">I've been building software for more than 10 years. I like working on the whole thing, from what people see on screen to the APIs, data, and cloud services behind it.</p>
-    <p class="body-copy">I started out automating design work. Later I led engineering teams at Accenture. These days I'm building ListPull's apps, games, and tools.</p>
-    <div class="about-chips"><span>React</span><span>JavaScript</span><span>Node.js</span><span>Python</span><span>AWS</span><span>PostgreSQL</span><span>APIs</span><span>AI tools</span></div>
+    <p class="section-kicker">03 / About me</p>
+    <h2 class="section-heading" id="about-title">I care about the<br/><em>whole experience.</em></h2>
+    <p class="body-copy">I'm Jay, a software engineer and the founder of ListPull. I've been building for more than a decade, from automating design work to leading teams on large cloud projects. I have a degree in Digital Media and Web Technology from the University of Maryland Global Campus.</p>
+    <p class="body-copy">I still like working on both sides of a project. One day I might be figuring out why an API is slow. The next I might be adjusting a layout, reviewing a database design, or helping someone figure out what an app needs to do.</p>
+    <p class="body-copy">That's what I like about ListPull. The work brings together software, media, data, and design, and I get to stay involved from the first idea to the finished product.</p>
+    <div class="about-chips"><span>React + JavaScript</span><span>Node.js + Python</span><span>AWS</span><span>PostgreSQL</span><span>AI + data tools</span><span>UI and charts</span><span>Testing + CI/CD</span><span>Team leadership</span></div>
     <div class="resume-row"><a href="Jay_Monga_Resume.pdf" class="btn btn-dark" download>Download resume <span aria-hidden="true">↓</span></a><a href="https://listpull.com/solutions.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline">ListPull Engineering <span aria-hidden="true">↗</span></a></div>
-    <p class="about-fact">Based in Maryland. I work with teams remotely, too.</p>
+    <p class="about-fact">Based in Maryland. Available for remote work and conversations about software and product ideas.</p>
   </div>
 </div></section>
 <section class="contact" id="contact" aria-labelledby="contact-title"><div class="container">
@@ -232,7 +339,7 @@
     <div><p class="section-kicker">Contact</p><h2 class="section-heading" id="contact-title">Have something<br/><em>in mind?</em></h2><p class="contact-intro">Need help with an app, a website, or a system you're already using? Send me a note.</p></div>
     <div class="contact-actions"><a class="contact-email" href="mailto:jeremiahmonga@gmail.com">jeremiahmonga@gmail.com <span aria-hidden="true">↗</span></a><div class="contact-links"><button type="button" data-copy-email>Copy email</button><a href="Jay_Monga_Resume.pdf" target="_blank" rel="noopener">Resume</a><a href="https://listpull.com/" target="_blank" rel="noopener noreferrer">ListPull ↗</a><a href="https://github.com/listpull" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div>
   </div>
-  <div class="footer"><span>© 2026 Jay Monga</span><span>Made to show the work, not just talk about it. <a href="#top">Back to top ↑</a></span></div>
+  <div class="footer"><span>© 2026 Jay Monga</span><span>Software, media, and the things I'm working on. <a href="#top">Back to top ↑</a></span></div>
 </div></section>
 </main>
 <div id="copy-status" class="toast" role="status" aria-live="polite" hidden></div>
