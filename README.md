@@ -1,38 +1,34 @@
-# Jay Monga's Portfolio
+# Jay Monga's portfolio
 
-My portfolio is a small, static website. It shows working ListPull apps and some of the software I built for previous employers.
+A portfolio showing my work at ListPull and on engineering teams at Accenture and BAE Systems.
 
-**Live portfolio:** https://listpull.github.io/portfolio/
-
+**Website:** https://listpull.github.io/portfolio/  
 **ListPull:** https://listpull.com/
 
-## What's on the site
+## What's here
 
-- Blobby's Woodland Wonder, with links to the iOS and Android versions.
-- ListPull Studio's Creative Editor, Video Studio, AI Workspace, Business Insights, and Forecast Lab. Each card links to the actual tool.
-- ListPull wildlife media.
-- A few projects from Accenture and BAE Systems, described without private screenshots or client data.
-- My work history, resume, and contact details.
+The site follows the original editorial layout, with a hero, the full-width engineering banner, three cards explaining my approach, ten project stories, a career timeline, and an about section.
 
-The wording is deliberately short. The work should speak for itself.
+Each project has an image, a year, a project period, a short introduction, and an expandable story of at least 100 words. The ListPull apps link to the real tools so visitors can try them. The client-work diagrams are illustrations and don't show private information.
 
-## Edit and run
+## Files
 
-The site uses plain HTML, CSS, and JavaScript. There's no build step.
+- `index.html` contains the site and the project cards.
+- `projects.json` keeps the same project text, links, images, and dates in one reusable place.
+- `styles.css` handles the layout and mobile styling.
+- `script.js` runs the mobile menu, project filters, and copy-email action.
+- `docs/PORTFOLIO_PIECES.md` has all ten longer project stories.
+- `docs/CONTENT_AND_CREDITS.md` explains the image sources and links.
+- `assets/` contains the illustrations and fallback artwork.
 
-- `index.html`: page content and project cards.
-- `styles.css`: site styling.
-- `script.js`: filters, mobile menu, and copy-email button.
-- `projects.json`: project details in a reusable format.
-- `assets/`: illustrations and a fallback image.
-- `docs/CONTENT_AND_CREDITS.md`: image credits and link notes.
+## Run locally
 
-To preview locally, run `python -m http.server 8000` and open http://localhost:8000.
+Use `python -m http.server 8000` and open http://localhost:8000.
 
-GitHub Pages publishes from this repository's main branch after changes are merged.
+GitHub Pages publishes this repository's main branch.
 
-## About the pictures
+## Image and date notes
 
-The Blobby gameplay image comes from ListPull's public game page. The Creative Studio, Video Studio, AI, data, forecast, and wildlife images are **new illustrations**, not screenshots. Accenture and BAE Systems projects use simplified diagrams, not client-owned screens. All tool cards link to the real apps.
+The Blobby image is from ListPull. The newer Studio tool images are original illustrations, not screenshots of private projects. Older client projects use simplified diagrams.
 
-If you take screenshots of the live tools later, you can swap the relevant `assets/studio-*.svg` paths in `index.html` and `projects.json`.
+Periods for the older work follow the original portfolio. For newer Studio tools, **Active in 2026** means the tool is part of ListPull's current 2026 work. It doesn't claim a verified original start date.

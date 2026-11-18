@@ -35,3 +35,16 @@
 .media.blobby img.asset{object-fit:contain;object-position:center;background:#20364a}
 .work-footnote{max-width:790px}
 @media(max-width:640px){.hero-tool-list{gap:5px}.hero-tool-list span{font-size:10px;padding:7px 4px}.project-card .card-deck{font-size:14px}}
+
+/* Restore the original portfolio storytelling layout. */
+.project-card .card-period{font-size:12px;font-weight:800;color:#738983;margin:0 0 17px;line-height:1.6}
+.project-card .story{margin-top:0}
+.project-card .story summary{padding-top:14px}
+.project-card .story p{font-size:14px;line-height:1.76;margin:12px 0}
+.story .story-open{display:none}
+.story[open] .story-open{display:inline}
+.story[open] .story-closed{display:none}
+.project-card .card-actions{margin-top:auto;padding-top:17px}
+.project-card.feature .card-actions{margin-top:0}
+.ticker-inner{white-space:nowrap}
+@media(max-width:750px){.project-card .story p{font-size:13.5px}.project-card .card-actions{padding-top:13px}}
