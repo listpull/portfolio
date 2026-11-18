@@ -23,3 +23,15 @@
 @media(max-width:420px){.hero h1{font-size:48px}.hero-art{height:320px}.hero-phone{width:157px;height:252px;top:39px}.floating-graph{width:157px;height:116px;bottom:26px}.floating-stamp{font-size:8px}.float-orbit{font-size:9px;padding:9px}.hero-stage{inset:2px 5px 10px 6px}.project-card.feature .media{min-height:280px}.section-heading{font-size:39px}.filter-bar{gap:6px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.hero-art svg .plot{stroke-dashoffset:0!important}}
 @media print{.site-header,.filter-bar,.hero-art,.ticker,.hero-actions,.card-actions,.contact-links{display:none!important}.project-card[hidden]{display:flex!important}body{background:white;font-size:12px}.container{width:100%}.hero,.work,.philosophy,.journey,.about{padding:20px 0}.work-grid{display:block}.project-card,.project-card.feature{display:block;break-inside:avoid;margin-bottom:18px;box-shadow:none}.project-card .media,.project-card.feature .media{height:200px;min-height:200px}.story:not([open]) p{display:block}.contact{padding:25px}.section-heading{font-size:35px}.principles{grid-template-columns:repeat(3,1fr)}}
+
+/* Short descriptions and clear links for the updated portfolio. */
+.project-card .card-deck{font-size:15px;line-height:1.65;color:#435c58;margin-bottom:14px}
+.project-card .card-period{margin-top:auto;margin-bottom:0;font-size:12px;font-weight:600;color:#6b827c}
+.project-card .card-actions{margin-top:18px}
+.project-card .card-actions a{font-size:12px;padding:11px 13px}
+.hero-tool-list{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:13px}
+.hero-tool-list span{padding:10px 7px;border-radius:8px;background:#e0eee7;color:#275d58;font-size:11px;font-weight:800;text-align:center}
+.media img.asset{object-fit:cover}
+.media.blobby img.asset{object-fit:contain;object-position:center;background:#20364a}
+.work-footnote{max-width:790px}
+@media(max-width:640px){.hero-tool-list{gap:5px}.hero-tool-list span{font-size:10px;padding:7px 4px}.project-card .card-deck{font-size:14px}}

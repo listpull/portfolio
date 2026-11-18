@@ -1,61 +1,87 @@
-# Portfolio pieces
+# Portfolio projects
 
-## 01 — Blobby’s Woodland Wonder (2020–2026)
+These descriptions also appear on the website. Keep them short.
 
-**Medium:** Mobile game · Interactive media
+## 01. Blobby's Woodland Wonder
 
-Blobby’s Woodland Wonder represents the most visible side of the company I founded: a product designed to be experienced, not merely explained. Published by ListPull, the mobile game brings together approachable puzzle mechanics, cheerful characters, richly layered environments, and small moments of discovery. Players match animals, sort stacks, merge houses, and explore a growing woodland world. I include it as an example of founder-led product work that meaningfully crosses digital media, software delivery, and audience experience. The central idea is simple: thoughtful technical execution should disappear behind an inviting interaction, while thoughtful systems make room for play, exploration, and curiosity.
+A puzzle game where you match animals, sort stacks, and build a forest village. It's free on iOS and Android.
 
-## 02 — A World Built for Discovery (2026)
+ListPull founder
 
-**Medium:** Game UX · 3D environments
+- Meet Blobby: https://listpull.com/blobby.html
+- App Store: https://apps.apple.com/us/app/blobbys-woodland-wonder/id1507379429
+- Google Play: https://play.google.com/store/apps/details?id=com.listpull.matchblock4
 
-The world of Blobby extends beyond a single puzzle board. Its different modes introduce matching, animal sorting, village building, and navigation between imagined wildlife regions. I selected this game-world study to communicate the importance of coherence across distinct experiences: visual cues help players recognize objects, themed locations provide context, and repeatable interactions establish familiarity. The public gameplay imagery illustrates the intersection of art direction, experience design, and technical product thinking at ListPull. Rather than claiming individual authorship of every visual asset, this piece publicly documents the kind of integrated creative product I help bring into the world through the company.
+## 02. Creative Studio
 
-## 03 — ListPull: Stories Across Screens (2026)
+Edit photos, add text and shapes, work with layers, and export your designs. It all runs in your browser.
 
-**Medium:** Digital storytelling · Web media
+ListPull product
 
-ListPull now presents wildlife-focused media alongside games and interactive experiences. That combination matters to me because it treats storytelling and software as complementary disciplines. A viewer might discover an animal through a short-form clip, encounter the same sense of wonder in a game, and continue exploring through a lightweight website. This selection demonstrates the connective tissue of a digital brand: clear narrative, thoughtful recognizable identity, distribution across channels, and accessible pathways into deeper engagement. The media itself is company-published work; the portfolio examines its direction and platform experience rather than assigning myself unverified credit for individual wildlife footage or edits.
+- Open the editor: https://listpull.com/studio/image-editor.html
 
-## 04 — Market Intelligence, Made Legible (2025–2026)
+## 03. Video Studio
 
-**Medium:** Data platform · Interface systems
+Cut clips, add titles, adjust audio, and export videos. You can start with a sample project.
 
-A market analytics portal is only useful when its information can be interpreted quickly and confidently. At ListPull, my engineering work brings React and Angular interfaces together with PHP services, WordPress-backed authentication, multiple external data feeds, and time-series visualizations. This portfolio illustration translates that work into an interface study rather than exposing internal screens or customer information. It emphasizes visual hierarchy, consistent components, useful context, and the infrastructure behind responsive data views. The point of the piece is not a trading recommendation or a performance claim; it is to show how front-end craft and back-end architecture become one understandable product.
+ListPull product
 
-## 05 — Forecasting with Perspective (2025–2026)
+- Open video editor: https://listpull.com/studio/video-editor.html
 
-**Medium:** Applied statistics · Motion graphic
+## 04. AI Workspace and Code Editor
 
-This piece visualizes the forecasting service I engineered for ListPull using Node.js and ARIMA models. The real engineering work includes per-symbol model caching and the delivery of intraday and daily projections. The animation created for this portfolio separates historical observations from projected movement, deliberately showing uncertainty rather than suggesting certainty. Its message is as much about communication as mathematics: the user should know where observed data ends and a model begins. In a field crowded with overconfident charts, I value honest labels, appropriate caveats, and systems that remain usable when external providers enforce rate limits or data availability changes.
+Edit HTML, CSS, and JavaScript, then run the app right in your browser. An optional AI assistant can help on supported devices.
 
-## 06 — Ask the Data a Better Question (2025–2026)
+ListPull product
 
-**Medium:** Conversational AI · Research
+- Try the workspace: https://listpull.com/studio/ai.html
 
-My natural-language research agent at ListPull combines Ollama, PostgreSQL, third-party API retrieval, and streamed analytical responses. It is intended to bridge the gap between what a user wants to know and the structure of the underlying data. This interface concept illustrates a request moving from language into retrieval and a readable result; it is not a live demonstration or a captured customer session. I am interested in agent experiences that expose their source material, remain grounded in real inputs, and handle ambiguity carefully. The piece communicates a direction for computing: AI that makes complex tools accessible without hiding their limitations.
+## 05. Business Insights
 
-## 07 — Finding the Signal in Clinical Data (2023–2025)
+Pick a sample about sales, deliveries, or wildlife, or upload a CSV. Explore the numbers with charts and comparisons.
 
-**Medium:** Enterprise GenAI · Cloud architecture
+ListPull product
 
-While leading engineering work at Accenture, I helped integrate a clinic recommendation capability into an existing React application for Bristol Myers Squibb. The supporting AWS architecture used Step Functions, Lambda, PostgreSQL, Bedrock embeddings, and OpenSearch semantic ranking. This original architecture study communicates the decision path rather than revealing client screens or private clinical information. It follows signals through processing, semantic retrieval, and ranked results, emphasizing the disciplined orchestration required behind a simple user interaction. For me, the work illustrates where emerging AI has practical value: making relevant information easier to find while preserving boundaries around sensitive contexts and human judgment.
+- Explore the data tool: https://listpull.com/studio/strategy.html
 
-## 08 — Modernizing Public Health Workflows (2021–2023)
+## 06. Forecast Lab
 
-**Medium:** Cloud workflows · Public-sector systems
+Use sample numbers or your own CSV to see a trend, test a forecast, and check how the model did against past data.
 
-The hardest enterprise experiences are often the transitions between systems. At Accenture, I worked on Department of Health contact-center integrations connecting Salesforce with AWS Connect and associated AWS services. Related architecture work included digital vaccination-record access and disease-surveillance workflows. This diagram summarizes those patterns without recreating a government interface or exposing sensitive information. It shows how events, secure APIs, automated routing, and operational records can form a more connected service experience. The underlying theme is service design at scale: reliability, privacy, and thoughtfully chosen automation help staff focus on people rather than repetitive handoffs between disconnected tools and manual processes.
+ListPull product
 
-## 09 — Public Data That People Can Use (2019–2021)
+- Try Forecast Lab: https://listpull.com/studio/forecast.html
 
-**Medium:** Public web · Accessible data visualization
+## 07. ListPull Wildlife Media
 
-At BAE Systems, I helped modernize the public-facing Bureau of Labor Statistics website under a Department of Labor contract. My work involved reusable React components, Highcharts visualizations, government data APIs, automated CMS workflows, and testing with Selenium and HtmlUnit. This original visual study is not an official BLS screenshot; it communicates the kind of accurate public information experience the modernization supported. Clear charts, consistent page patterns, accessible interactions, and dependable publishing matter because people rely on these resources to understand real conditions. This work helped shape my belief that good engineering is also a form of public communication and stewardship.
+Nature videos, wildlife stories, and game updates shared through ListPull's channels.
 
-## 10 — Where Code First Met Craft (2012–2015)
+ListPull company work
 
-**Medium:** Creative automation · Vector production
+- Visit ListPull: https://listpull.com/
+- Watch on YouTube: https://www.youtube.com/@listpull
 
-Before leading cloud and AI projects, I worked close to production artwork at Champion Teamwear. I automated Adobe Illustrator and Photoshop workflows with JavaScript, generating vector assets such as SVG, XML, and FXG. That experience changed how I approached software: I began by understanding a creative process, noticing friction, and building tools that removed it. This newly drawn vector piece represents that process rather than a recovered client design. It closes the portfolio by returning to its origin story. Those same instincts still remain central to my work: respect the craft, simplify the workflow, and let technology expand creative capacity.
+## 08. Clinic Recommendations
+
+I led work on a React feature that helped find relevant clinics using lab data. Behind it were AWS services, PostgreSQL, Bedrock, and OpenSearch.
+
+Software engineering manager · Accenture
+
+
+
+## 09. Public Health Systems
+
+I helped connect Salesforce and AWS Connect for public health call centers. I also worked on digital vaccination records and disease tracking tools.
+
+Application architect and senior engineer · Accenture
+
+
+
+## 10. Bureau of Labor Statistics Website
+
+I helped modernize the BLS website with React components, clearer data charts, and tools that made publishing easier.
+
+Lead web developer · BAE Systems
+
+- Visit BLS.gov: https://www.bls.gov/
+

@@ -1,41 +1,38 @@
-# Jay Monga — Portfolio
+# Jay Monga's Portfolio
 
-A story-driven, responsive portfolio for **Jay Monga**, adapted from the six-section reference storyboard. The project is a plain HTML/CSS/JavaScript static site and can be hosted directly on **GitHub Pages** without installing Node, running a build, or providing API credentials.
+My portfolio is a small, static website. It shows working ListPull apps and some of the software I built for previous employers.
 
-## Contents
+**Live portfolio:** https://listpull.github.io/portfolio/
 
-- `index.html` — the complete public-facing portfolio, including **10 numbered pieces**, a year of creation, and an **exactly 100-word synopsis** for each.
-- `styles.css` — responsive styling, editorial layouts, and accessibility settings.
-- `script.js` — work-category filters, responsive navigation, and copy-email action.
-- `assets/*.svg` — original illustrations of systems and product concepts, plus an offline fallback for live ListPull images.
-- `assets/social-preview.png` — social share artwork.
-- `Jay_Monga_Resume.pdf` — the résumé provided by Jay.
-- `docs/PORTFOLIO_PIECES.md` — all ten synopses in a portable document.
-- `docs/CONTENT_AND_CREDITS.md` — source verification, provenance, and image credits.
-- `.nojekyll` — prevents GitHub Pages from rewriting asset paths.
+**ListPull:** https://listpull.com/
 
-## Deploy to GitHub Pages
+## What's on the site
 
-1. Create a public GitHub repository, for example `jay-monga-portfolio`.
-2. Upload **the contents of this folder** to the root of the repository (`index.html` should be at the repository root).
-3. In the repository, open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, `main`, and `/ (root)`; click **Save**.
-4. Open the URL GitHub displays. For a project repo, the URL typically looks like `https://YOUR_USERNAME.github.io/jay-monga-portfolio/`. For a personal site repo named `YOUR_USERNAME.github.io`, it typically looks like `https://YOUR_USERNAME.github.io/`.
-5. To work locally, open `index.html` or use `python -m http.server 8000` from this folder, then visit `http://localhost:8000/`.
+- Blobby's Woodland Wonder, with links to the iOS and Android versions.
+- ListPull Studio's Creative Editor, Video Studio, AI Workspace, Business Insights, and Forecast Lab. Each card links to the actual tool.
+- ListPull wildlife media.
+- A few projects from Accenture and BAE Systems, described without private screenshots or client data.
+- My work history, resume, and contact details.
 
-## Personalize before publishing
+The wording is deliberately short. The work should speak for itself.
 
-- Verify the résumé contact information is still the preferred public email and phone.
-- Review each first-person synopsis and correct any nuance of authorship, leadership, or dates.
-- Replace or augment linked company media with any locally owned MP4/MOV/WEBM clips or screenshots you'd like to keep archived. No video has been fabricated or relabeled.
-- Add real personal GitHub, LinkedIn, and a headshot **only** if you want them public; these were not in the provided résumé and have intentionally not been invented.
-- The actual Blobby images are served from `listpull.com`. The site has an original **local fallback SVG** if those hotlinks are unavailable. For a fully offline version, save company-owned image assets into `assets/` and update their `src` values.
-- Technical graphics are new conceptual portfolio illustrations, *not* actual Accenture, BAE, or BLS client screens.
-- After you have your final GitHub Pages URL, use it as the absolute `og:image` location for more reliable social previews.
+## Edit and run
 
-## Accessibility and design
+The site uses plain HTML, CSS, and JavaScript. There's no build step.
 
-Semantic headings, descriptive image alternative text, keyboard focus states, a skip link, a functional mobile menu, accessible native disclosure summaries, responsive layout, and reduced-motion support. The site uses no tracking code and sends contact through `mailto:`/`tel:`, so it requires no backend or service credentials.
+- `index.html`: page content and project cards.
+- `styles.css`: site styling.
+- `script.js`: filters, mobile menu, and copy-email button.
+- `projects.json`: project details in a reusable format.
+- `assets/`: illustrations and a fallback image.
+- `docs/CONTENT_AND_CREDITS.md`: image credits and link notes.
 
-## Art and sources
+To preview locally, run `python -m http.server 8000` and open http://localhost:8000.
 
-All original SVG diagrams and the portfolio layout are provided as source and may be edited. ListPull's external game imagery remains attributed to the company. For full evidence and links, see `docs/CONTENT_AND_CREDITS.md`.
+GitHub Pages publishes from this repository's main branch after changes are merged.
+
+## About the pictures
+
+The Blobby gameplay image comes from ListPull's public game page. The Creative Studio, Video Studio, AI, data, forecast, and wildlife images are **new illustrations**, not screenshots. Accenture and BAE Systems projects use simplified diagrams, not client-owned screens. All tool cards link to the real apps.
+
+If you take screenshots of the live tools later, you can swap the relevant `assets/studio-*.svg` paths in `index.html` and `projects.json`.
